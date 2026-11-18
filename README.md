@@ -14,4 +14,3 @@ Create the admin user, then run the API:
 
 python -m app.seed_admin
 uvicorn app.main:app --reload
-Open http://localhost:8000/docs to test register / login / me.
